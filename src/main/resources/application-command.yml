@@ -1,0 +1,31 @@
+acme:
+  command:
+    # 路由器注册
+    router_registry:
+      mac:
+        begin: 0
+        end: 1
+      port:
+        begin: 0
+        end: 1
+    # 路由器设置
+    router_setting:
+      mac:
+        begin: 0
+        end: 1
+      port:
+        begin: 0
+        end: 1
+
+category:
+  commandCategory:
+    ACK:
+      command_class: 0x01
+      command_id: 0x01
+    NACK:
+      command_class: 0x01
+      command_id: 0x02
+    OVERTIME:
+      command_class: 0x01
+      command_id: 0x03
+
